@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0 0 0 0;
+            padding: 0 0 0 0;
+        }
+        
+    .head{
+      
+        display: inline-block;
+        margin-top: 15px;
+        /* flex-flow: row- wrap; */
+        /* vertical-align: middle; */
+        /* float: right; */
+    
+    }
+
+    .logo_side{
+        /* border: 2px solid red; */
+        padding-left: 75px;
+        background-color: #161616;
+        padding-top: 10px;
+        display: inline-block;
+    }
+
+    .category{
+        vertical-align: middle;
+        /* border: 2px solid green; */
+        margin-right: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #fff;
+        font-size: 14px;
+        
+    }
+
+    #searchbar{
+        float: right;
+        /* border: 2px solid white; */
+        margin-right: 140px;
+        margin-top: 15px;
+    
+    }
+
+    .account{
+        color: #fff;
+        display: inline-block;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-top: 10px;
+        margin: 0;
+        font-size: 14px;
+        vertical-align: middle;
+    }
+
+    #search{
+        height: 35px;
+        width: 300px;
+        border: 1px solid grey;
+        background-color: #161616;
+        border-radius: 6px;
+
+    }
+   
+   #anime_box{
+       /* border: 2px solid greenyellow; */
+       padding: 30px 20px 30px 20px;
+       color: white;
+       font-family: Arial, Helvetica, sans-serif;
+       font-size: 14px;
+       /* margin-bottom: 10px; */
+   }
+
+   .anime{
+       /* border: 2px solid tomato; */
+       padding: 10px;
+       display: flex;
+       flex-flow: row wrap;
+       justify-content: space-around;
+   }
+
+   .anime_title{
+       /* border: 2px solid #ccff15; */
+       display: inline-block;
+   }
+
+   .anime_name{
+       color: white;
+       font-size: 14px;
+       /* margin-left: 16px; */
+       /* margin-left: 15px; */
+       /* margin-right: 15px; */
+       text-align: center;
+
+   }
+
+   .episode{
+       color: rgba(255, 255, 255, 0.671);
+       /* margin-left: 50px; */
+       text-align: center;
+   }
+
+
+
+    </style>
+</head>
+<body style="background-color: #161616;">
+    <header>
+        <div class="head">
+        <div class="logo_side">
+            <img  class="category" src="logo.png" alt="4anime" height="47px" style="vertical-align: middle">
+            <span class="category"> Genre  </span>
+            <span class="category"> Browse </span>
+            <span class="category"> Random </span>
+    </div>
+    </div>
+
+    <div id="searchbar">
+
+        <form class="account" style="margin-right: 30px;">
+            <input type="text" name="search" id="search" placeholder="Search..." style="color: #fff;">
+        </form>
+
+        <img src="https://4anime.to/static/discordjeah.svg" alt="discord" height="30px" style="display: inline-block; vertical-align: middle; margin-right: 20px;">
+
+        <p class="account"> Login </p>
+
+    </div>
+</header>
+
+
+<div id="anime_box"> 
+   <p style="margin-left: 15px;"> Recently Added  <br>
+
+   </p>
+    <div class="anime">
+        <div class="anime_title">
+        
+        <img src="https://4anime.to/image/Yakunara-Mug-Cup-mo.jpg" alt="anime" height="250px">
+        <p class="anime_name">
+            Yakunara Mug Cup mo
+        </p>
+
+        <p class="episode">
+            Episode 8
+        </p>
+        </div>
+
+        <div class="anime_title">
+        
+            <img src="https://4anime.to/image/Odd-Taxi.jpg" alt="anime" height="250px">
+            <p class="anime_name" style="margin-left: 53px;">
+    Odd Taxi
+            </p>
+    
+            <p class="episode">
+                Episode 8
+            </p>
+            </div>
+
+            <div class="anime_title">
+        
+                <img src="https://4anime.to/image/Mars-Red.jpg" alt="anime" height="250px">
+                <p class="anime_name" style="margin-left: 53px;">
+                    Mars red
+                </p>
+        
+                <p class="episode">
+                    Episode 5
+                </p>
+                </div>
+
+                <div class="anime_title">
+        
+                    <img src="https://4anime.to/image/Fumetsu-no-Anata-e.jpg" alt="anime" height="250px">
+                    <p class="anime_name" style="margin-left: 23px;">
+                        Fumetsu no Anata e
+                    </p>
+            
+                    <p class="episode">
+                        Episode 45
+                    </p>
+                    </div>
+
+                    <div class="anime_title">
+        
+                        <img src="https://4anime.to/image/Fruits-Basket-The-Final.jpg" alt="anime" height="250px">
+                        <p class="anime_name">
+                         Fruits Basket The Final
+                        </p>
+                
+                        <p class="episode">
+                            Episode 62
+                        </p>
+                        </div>
+
+                        <div class="anime_title">
+        
+                            <img src="https://4anime.to/image/Hige-wo-Soru-Soshite-Joshikousei-wo-Hirou.jpg" alt="anime" height="250px">
+                            <p class="anime_name" style="margin-left: 40px;">
+                                Higewo Soru 
+                            </p>
+                    
+                            <p class="episode">
+                                Episode 8
+                            </p>
+                            </div>
+
+                            <div class="anime_title">
+        
+                                <img src="https://4anime.to/image/One-Piece-Cover-New.jpg" alt="anime" height="250px">
+                                <p class="anime_name" style="margin-left: 55px;">
+                                    One piece
+                                </p>
+                        
+                                <p class="episode">
+                                    Episode 980
+                                </p>
+                                </div>
+
+
+    </div>
+
+    <br><br>
+
+    <!-- POPULAR THIS WEEK  -->
+
+    <p style="margin-left: 15px;"> Recently Added  <br>
+
+    </p>
+     <div class="anime">
+         <div class="anime_title">
+         
+         <img src="https://4anime.to/image/Ijiranaide-Nagatoro-san.jpg" alt="anime" height="250px">
+         <p class="anime_name">
+             Ijiranaide Nagatoro san
+         </p>
+ 
+         <p class="episode">
+             Episode 43
+         </p>
+         </div>
+ 
+         <div class="anime_title">
+         
+             <img src="https://4anime.to/image/Boku-no-Hero-Academia-5th-Season.jpg" alt="anime" height="250px">
+             <p class="anime_name">
+                 Boku no Hero Academia
+             </p>
+     
+             <p class="episode">
+                 Episode 103
+             </p>
+             </div>
+ 
+             <div class="anime_title">
+         
+                 <img src="https://4anime.to/image/Wonder-Egg-Priority.jpg" alt="anime" height="250px">
+                 <p class="anime_name">
+                     Wonder Egg Priority
+                 </p>
+         
+                 <p class="episode">
+                     Episode 8
+                 </p>
+                 </div>
+ 
+                 <div class="anime_title">
+         
+                     <img src="https://4anime.to/image/Jujutsu-Kaisen.jpg" alt="anime" height="250px">
+                     <p class="anime_name" style="margin-left: 35px;">
+                         Jujutsu Kaisen
+                     </p>
+             
+                     <p class="episode">
+                         Episode 8
+                     </p>
+                     </div>
+ 
+                     <div class="anime_title">
+         
+                         <img src="https://4anime.to/image/Shironeko-Project-Zero-Chronicle.jpg" alt="anime" height="250px">
+                         <p class="anime_name">
+                             Shironeko Project Zero 
+                         </p>
+                 
+                         <p class="episode">
+                             Episode 34
+                         </p>
+                         </div>
+ 
+                         <div class="anime_title">
+         
+                             <img src="https://4anime.to/image/Fumetsu-no-Anata-e.jpg" alt="anime" height="250px">
+                             <p class="anime_name" style="margin-left: 53px;">
+                                 Fumetsu
+                             </p>
+                     
+                             <p class="episode">
+                                 Episode 8
+                             </p>
+                             </div>
+ 
+                             <div class="anime_title">
+         
+                                 <img src="https://4anime.to/image/Naruto-Shippuuden-Cover-1.jpg" alt="anime" height="250px">
+                                 <p class="anime_name">
+                                     Naruto Shippuden
+                                 </p>
+                         
+                                 <p class="episode">
+                                     Episode 500    
+                                 </p>
+                                 </div>
+ 
+ 
+     </div>
+
+</div>
+
+
+
+</body>
+</html>
