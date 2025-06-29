@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+
+    .content{
+        border: 2px solid green;
+        margin-right: 10px  ;
+        /* margin-top: 100px; */
+        display: inline-block;
+        vertical-align: middle;
+
+    } 
+
+    .logo{
+        display: inline-block;
+        float: right;
+    }
+</style>
+</head>
+
+<body>
+
+    <!-- IN SPAN MARGIN TOP DOES NOT WORK NEITHER MARGIN BOTTOM  -->
+    <!-- DISPLAY INLINE-BLOCK IN DIV WORKS LIKE SPAN WITH ALL PROPERTIES -->
+
+    <div style="border: 3px solid red;">
+
+    <span class="content">
+        <img src="logo.png" alt="logo" height=50px style="float:left">
+    </span>
+    <span class="content">
+            Browse
+    </span>
+
+    <span class=content>
+        Action
+    </span>
+
+    <span class=content>
+        Comedy
+    </span>
+
+
+    <!-- <div>
+        <p style="border:2px solid green;" >
+            Anime
+        </p>
+    </div> -->
+
+    <div class="logo">
+        <img src="logo.png" alt="logo" height="50px" style="float:left">
+         <p style="display: inline-block;"> Naruto Shippuden </p>
+         <p style="display: inline-block;"> Shido </p>
+        
+    </div>
+
+</div>
+</body>
+</html>
